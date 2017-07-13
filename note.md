@@ -24,3 +24,12 @@ True
 True
 ```
 ## is/is not
+## '*'
+'*' can ignore some useless terms, and the parameter use '*' will be seen as string!
+```
+>>> x = [1,2,3,4,5]
+>>> a,*b,c = x
+>>> a,b,c
+(0,[1,2,3],4)
+```
+
