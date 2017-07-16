@@ -35,6 +35,20 @@ True
 ## pass
 always use in if-else to do nothing
 
+## for ... in ...
+for x in gg, and the type of gg can be "list","tuple","str"
+```
+name = (('jj',60,70),('kk',92,93),('kd',99,99))
+highs = []
+for x,y,z in name:
+    if y >= 90 and z >= 90:
+        highs += [x,y,z]
+print(highs)
+```
+and the execution result is...
+```
+>>>['kk', 92, 93, 'kd', 99, 99]
+```
 
 ## Reference
 1.http://goo.gl/DJAKYW
