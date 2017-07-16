@@ -32,4 +32,11 @@ True
 >>> a,b,c
 (0,[1,2,3],4)
 ```
+## pass
+always use in if-else to do nothing
+
+
+## Reference
+1.http://goo.gl/DJAKYW
+2.https://goo.gl/usKfV5
 
