@@ -58,7 +58,7 @@ def sum(numbers,initial=0)
     print(initial)
 >>> sum(10) #with no initial value
 0 #initial = 0
->>>sum(10,87) #with initial value
+>>> sum(10,87) #with initial value
 87 #initial = 87
 ```
 
