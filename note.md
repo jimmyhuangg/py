@@ -37,6 +37,7 @@ always use in if-else to do nothing
 
 ## for ... in ...
 for x in gg, and the type of gg can be "list","tuple","str"
+Example:
 ```
 name = (('jj',60,70),('kk',92,93),('kd',99,99))
 highs = []
@@ -47,8 +48,20 @@ print(highs)
 ```
 and the execution result is...
 ```
->>>['kk', 92, 93, 'kd', 99, 99]
+>>> ['kk', 92, 93, 'kd', 99, 99]
 ```
+## fucntion initialization
+we can initial the parameter when calling the function if we don't give its initial value
+Example:
+```
+def sum(numbers,initial=0)
+    print(initial)
+>>> sum(10) #with no initial value
+0 #initial = 0
+>>>sum(10,87) #with initial value
+87 #initial = 87
+```
+
 
 ## Reference
 1.http://goo.gl/DJAKYW
